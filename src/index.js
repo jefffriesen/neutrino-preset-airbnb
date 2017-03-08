@@ -12,19 +12,19 @@ module.exports = neutrino => {
         },
         rules: {
           // handled by babel rules
-          'new-cap': 'off',
+          // 'new-cap': 'off',
 
           // handled by babel rules
-          'object-curly-spacing': 'off',
+          // 'object-curly-spacing': 'off',
 
           // require a capital letter for constructors
-          'babel/new-cap': ['error', { newIsCap: true }],
+          // 'babel/new-cap': ['error', { newIsCap: true }],
 
           // require padding inside curly braces
-          'babel/object-curly-spacing': ['error', 'always'],
+          // 'babel/object-curly-spacing': ['error', 'always'],
 
           // guard against awaiting async functions inside of a loop
-          'babel/no-await-in-loop': 'error'
+          // 'babel/no-await-in-loop': 'error'
         }
       }
     }));
