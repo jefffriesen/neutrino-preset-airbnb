@@ -8,7 +8,7 @@ module.exports = neutrino => {
     .loader('eslint', props => merge(props, {
       options: {
         baseConfig: {
-          extends: ['airbnb']
+          extends: ['prettier']
         },
         rules: {
           // handled by babel rules

@@ -1,8 +1,8 @@
-# Neutrino Airbnb Preset
+# Neutrino Prettier Lint Preset
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 
-`neutrino-preset-airbnb` is a Neutrino preset that supports linting JavaScript projects with Airbnb's ESLint
-config, following the [Airbnb styleguide](https://github.com/airbnb/javascript).
+`neutrino-preset-airbnb` is a Neutrino preset that supports linting JavaScript projects with Prettier ESLint
+config.
 
 ## Requirements
 
@@ -12,20 +12,20 @@ config, following the [Airbnb styleguide](https://github.com/airbnb/javascript).
 
 ## Installation
 
-neutrino-preset-airbnb can be installed via the Yarn or npm clients. Inside your project, make sure 
-neutrino and neutrino-preset-airbnb are development dependencies. You will also be using another 
+neutrino-preset-lint-prettier can be installed via the Yarn or npm clients. Inside your project, make sure
+neutrino and neutrino-preset-lint-prettier are development dependencies. You will also be using another
 Neutrino preset for building your application source code.
 
 ### Yarn
 
 ```bash
-❯ yarn add --dev neutrino-preset-airbnb
+❯ yarn add --dev neutrino-preset-lint-prettier
 ```
 
 ### npm
 
 ```bash
-❯ npm install --save-dev neutrino-preset-airbnb 
+❯ npm install --save-dev neutrino-preset-lint-prettier
 ```
 
 ## Documentation

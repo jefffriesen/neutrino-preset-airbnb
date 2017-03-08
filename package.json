@@ -1,11 +1,11 @@
 {
-  "name": "neutrino-preset-airbnb",
+  "name": "neutrino-preset-lint-prettier",
   "version": "1.0.1",
-  "description": "Neutrino preset for adding Airbnb's JS ESLint config, following the Airbnb styleguide",
+  "description": "Neutrino preset for adding Prettier JS ESLint config",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guzart/neutrino-preset-airbnb.git"
+    "url": "https://github.com/jefffriesen/neutrino-preset-lint-prettier"
   },
   "keywords": [
     "neutrino",
@@ -13,19 +13,16 @@
     "airbnb",
     "eslint"
   ],
-  "author": "Arturo Guzman <arturo@guzart.com>",
-  "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/guzart/neutrino-preset-airbnb/issues"
-  },
-  "homepage": "https://github.com/guzart/neutrino-preset-airbnb#readme",
+  "author": "Jeff Friesen <momoblackblack@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jefffriesen/neutrino-preset-lint-prettier",
   "dependencies": {
     "deepmerge": "^1.3.2",
     "eslint": "^3.16.1",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-prettier": "^2.0.1",
     "eslint-plugin-react": "^6.10.0",
-    "eslint-config-airbnb": "^14.1.0",
     "neutrino-lint-base": "^4.3.1"
   },
   "peerDependencies": {
