@@ -4,6 +4,8 @@
 `neutrino-preset-lint-prettier` is a Neutrino preset that supports linting JavaScript projects with Prettier ESLint
 config.
 
+#### This is very alpha. Seems to be working for me but try it out and submit a PR or bug if you find problems
+
 ## Requirements
 
 * Node.js v6.9+

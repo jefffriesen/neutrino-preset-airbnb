@@ -11,6 +11,9 @@ module.exports = neutrino => {
           extends: ['prettier']
         },
         rules: {
+          // These were in the repo I forked from. Leaving them commented until
+          // I'm sure I can remove them.
+
           // handled by babel rules
           // 'new-cap': 'off',
 
@@ -24,7 +27,7 @@ module.exports = neutrino => {
           // 'babel/object-curly-spacing': ['error', 'always'],
 
           // guard against awaiting async functions inside of a loop
-          // 'babel/no-await-in-loop': 'error'
+          // no-await-in-loop': 'error'
         }
       }
     }));
