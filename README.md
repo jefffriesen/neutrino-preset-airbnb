@@ -1,10 +1,14 @@
 # Neutrino Prettier Lint Preset
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 
-`neutrino-preset-lint-prettier` is a Neutrino preset that supports linting JavaScript projects with Prettier ESLint
+`neutrino-preset-lint-prettier` is a Neutrino preset that supports linting JavaScript projects with [Prettier](https://github.com/prettier/prettier) ESLint
 config.
 
 #### This is very alpha. Seems to be working for me but try it out and submit a PR or bug if you find problems
+
+Note: This will not reformat your code, it will only tell your IDE that there are linting errors. It is intended to be used along side a `prettier` formatting tool such as [`prettier-atom`](https://github.com/jlongster/prettier-atom).
+
+There is a work-in-progress neutrino preset that will format your code called [neutrino-preset-prettier](https://github.com/SpencerCDixon/neutrino-preset-prettier)
 
 ## Requirements
 
