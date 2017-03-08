@@ -10,7 +10,7 @@
   "keywords": [
     "neutrino",
     "neutrino-preset",
-    "airbnb",
+    "prettier",
     "eslint"
   ],
   "author": "Jeff Friesen <momoblackblack@gmail.com>",
@@ -23,7 +23,8 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-prettier": "^2.0.1",
     "eslint-plugin-react": "^6.10.0",
-    "neutrino-lint-base": "^4.3.1"
+    "neutrino-lint-base": "^4.3.1",
+    "prettier": "^0.21.0"
   },
   "peerDependencies": {
     "neutrino": "^4.0.0"

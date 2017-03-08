@@ -1,7 +1,7 @@
 # Neutrino Prettier Lint Preset
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 
-`neutrino-preset-airbnb` is a Neutrino preset that supports linting JavaScript projects with Prettier ESLint
+`neutrino-preset-lint-prettier` is a Neutrino preset that supports linting JavaScript projects with Prettier ESLint
 config.
 
 ## Requirements
@@ -33,6 +33,6 @@ Neutrino preset for building your application source code.
 See the [Neutrino docs](https://neutrino.js.org/presets/neutrino-preset-airbnb-base/)
 for more details.
 
-[npm-image]: https://img.shields.io/npm/v/neutrino-preset-airbnb.svg
-[npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-airbnb.svg
-[npm-url]: https://npmjs.org/package/neutrino-preset-airbnb
+[npm-image]: https://img.shields.io/npm/v/neutrino-preset-lint-prettier.svg
+[npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-lint-prettier.svg
+[npm-url]: https://npmjs.org/package/neutrino-preset-lint-prettier
